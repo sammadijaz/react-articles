@@ -1,6 +1,10 @@
+import { useParams } from "react-router-dom"
+
 const ArticlePage = () => {
+  const { name } = useParams();
+
   return (
-    <div>ArticlePage</div>
+    <h1>This is {name} Article</h1>
   )
 }
 
