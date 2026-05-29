@@ -23,7 +23,7 @@ const routes = [
         element: <ArticlesList />,
       },
       {
-        path: "/articles/article",
+        path: "/articles/:article",
         element: <ArticlePage />,
       },
     ],
